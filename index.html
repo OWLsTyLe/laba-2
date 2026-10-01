@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heroku Lab</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: #20232a;
+            color: white;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #ddd;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 700px;
+        }
+
+        .icon {
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 20px;
+            color: #64748b;
+            margin-bottom: 15px;
+        }
+
+        .status {
+            font-size: 17px;
+            color: #475569;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #6c5ce7;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            background: #5849c7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Heroku Lab</h1>
+
+    <nav>
+        <a href="#">Головна</a>
+        <a href="#">Про проєкт</a>
+        <a href="#">Контакти</a>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="icon">☁️</div>
+
+        <h2>Hello from Heroku!</h2>
+
+        <p class="description">
+            Це тестова вебсторінка для лабораторної роботи.
+        </p>
+
+        <p class="status">
+            Якщо ви бачите цю сторінку — проєкт успішно розгорнуто на Heroku.
+        </p>
+
+        <a href="#" class="button">
+            Deployment successful!
+        </a>
+
+    </div>
+</main>
+
+<footer>
+    © 2026 Heroku Lab. Лабораторна робота.
+</footer>
+
+</body>
+</html>
